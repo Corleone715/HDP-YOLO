@@ -1,0 +1,11 @@
+# dataset path
+path: C:/HDP-YOLO
+train: ./dataset/images/train  # path + train
+val: ./dataset/images/val # path + val
+test: ./dataset/images/test # path + test
+
+# number of classes
+nc: 6
+
+# class names
+names: ['bottle','can','plastic_box','carton','plastic_bag','leaf']
